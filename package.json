@@ -1,0 +1,29 @@
+{
+  "name": "secp256k1_mimblewimble",
+  "version": "0.0.1",
+  "description": "[EXPERIMENTAL] A secp256k1 elliptic curve utility with mimblewimble-compatible generators",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest test/*.spec.js --verbose",
+    "test-watch": "jest --watch test/*.spec.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "mimblewimble",
+    "pedersen",
+    "commitment",
+    "grin",
+    "secp256k1",
+    "alternative",
+    "generator"
+  ],
+  "author": "Gavin McDermott <gavinmcdermott@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bigi": "^1.4.2",
+    "ecurve": "^1.0.6"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
